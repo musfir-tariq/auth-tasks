@@ -1,4 +1,4 @@
-# Project auth-tasks
+# auth-tasks
 An authentication backend code which also provides basic functionality to perform CRUD ops on a task model.
 
 ## Requirements
@@ -26,6 +26,7 @@ For development, you will need the following:
   - psql -c 'create database my_db;'
   - For linux, you can use the following command
     - sudo -u postgres psql -c 'create database my_db;'
+- For adding seeders just add the seeders.up() method from src/seeders into main.ts to add seeders once.
   ##### Note that the db name specified here and in the .env must be the same.
 
 
